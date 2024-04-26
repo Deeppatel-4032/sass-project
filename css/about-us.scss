@@ -1,0 +1,42 @@
+@use './base.scss';
+
+
+.section-1{
+    border-bottom: 1px solid #a7a7a7;
+    .about-us{
+        .u-s{
+           @include base.top() 
+        }
+        .hading{
+           @include base.big()
+        }
+        .p-line-1{
+            @extend .pera;
+        }
+        .p-line-2{
+            @extend .pera;
+            margin-bottom: 50px;
+        }
+        a{
+            text-decoration: none;
+            display: inline-block;
+        
+            .red-mode{
+                @include base.btn() 
+            }
+            
+            
+        }
+        
+    }
+}
+.about-img-1{
+    img{
+        width: 100%;
+    }
+}
+.about-img-2{
+    img{
+        width: 100%;
+    }
+}

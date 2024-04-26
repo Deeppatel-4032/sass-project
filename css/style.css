@@ -1,0 +1,753 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.w-1 {
+  width: 8.33%;
+}
+
+.w-2 {
+  width: 16.66%;
+}
+
+.w-3 {
+  width: 25%;
+}
+
+.w-4 {
+  width: 33.33%;
+}
+
+.w-5 {
+  width: 41.66%;
+}
+
+.w-6 {
+  width: 50%;
+}
+
+.w-7 {
+  width: 58.33%;
+}
+
+.w-8 {
+  width: 66.66%;
+}
+
+.w-9 {
+  width: 75%;
+}
+
+.w-10 {
+  width: 83.33%;
+}
+
+.w-11 {
+  width: 91.66%;
+}
+
+.w-12 {
+  width: 100%;
+}
+
+.w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ptb {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.m-a {
+  margin: 0 auto;
+}
+
+.gap-10 {
+  row-gap: 10px;
+}
+
+.pera, .footer .f-logo .footer-p, .footer .new-latest .footer-p, .section-4 .testi-moon .test-p, .section-2 .service-list .cart-p, .section-1 .about-us .p-line-1, .section-1 .about-us .p-line-2 {
+  font-size: 16px;
+  font-family: "Cabin";
+  color: #595960;
+  text-align: center;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+.skip, .section-4 .next-btn-1, .section-4 .next-btn-2 {
+  width: 44px;
+  height: 44px;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: center;
+  color: #707079;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.skip:hover, .section-4 .next-btn-1:hover, .section-4 .next-btn-2:hover {
+  border: 1px solid #707079;
+}
+
+.top-bar {
+  border-bottom: 1px solid #a7a7a7;
+}
+.top-bar .contect-ditel {
+  display: inline-block;
+}
+.top-bar .contect-ditel ul {
+  display: flex;
+  list-style: none;
+}
+.top-bar .contect-ditel ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.top-bar .contect-ditel ul li a i {
+  color: #DFA974;
+}
+.top-bar .contect-ditel ul li a span {
+  font-size: 16px;
+  margin: 0 64px 0 0;
+  font-family: "Cabin";
+}
+.top-bar .contect-ditel ul li .sarch i {
+  padding-top: 20px;
+  color: #000;
+}
+.top-bar .sociel-ditel {
+  padding: 13px 0;
+  display: inline-block;
+}
+.top-bar .sociel-ditel ul {
+  display: flex;
+  list-style: none;
+}
+.top-bar .sociel-ditel ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.top-bar .sociel-ditel ul li a i {
+  color: #DFA974;
+  padding: 0 10px;
+  transition: all 0.3s ease;
+}
+.top-bar .sociel-ditel ul li a i:hover {
+  color: #222736;
+}
+.top-bar .sociel-ditel ul li .booking {
+  padding: 20px 28px;
+  background-color: #DFA974;
+  margin-left: 30px;
+  transition: all 0.3s ease;
+}
+.top-bar .sociel-ditel ul li .booking a {
+  text-decoration: none;
+}
+.top-bar .sociel-ditel ul li .booking span {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.top-bar .sociel-ditel ul li .booking:hover {
+  background-color: #222736;
+}
+.top-bar .sociel-ditel ul li .flag {
+  margin-left: 30px;
+}
+.top-bar .sociel-ditel ul li .flag img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.top-bar .sociel-ditel ul li span {
+  font-size: 16px;
+  color: #000;
+}
+.top-bar .sociel-ditel ul li span i {
+  padding: 0;
+  color: #000;
+  position: relative;
+}
+
+.nav-bar .logo {
+  padding: 25px 0;
+}
+.nav-bar .logo img {
+  margin-left: 30px;
+}
+.nav-bar .menu-bar ul {
+  display: flex;
+  list-style: none;
+}
+.nav-bar .menu-bar ul li {
+  padding: 27px 0;
+  margin: 0 42px 0 0;
+}
+.nav-bar .menu-bar ul li a {
+  text-decoration: none;
+}
+.nav-bar .menu-bar ul li a span {
+  color: #000;
+  font-size: 16px;
+  font-family: "Cabin";
+  font-weight: 600;
+  padding: 5px 0 0 0;
+}
+.nav-bar .menu-bar ul li a:hover {
+  border-bottom: 3px solid #DFA974;
+}
+.nav-bar .m-btn button {
+  background-color: #fff;
+  border: none;
+}
+.nav-bar .m-btn button i {
+  color: #000;
+  font-size: 25px;
+}
+
+.banner {
+  background-image: url("../image/bg-image/hero-3.jpg.webp");
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 750px;
+}
+.banner .banner-titel {
+  padding-top: 100px;
+}
+.banner .banner-titel h1 {
+  font-size: 80px;
+  font-weight: 400;
+  font-family: "Lora";
+  line-height: 90px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.banner .banner-titel p {
+  font-size: 18px;
+  font-family: "Lora";
+  color: #fff;
+  margin-bottom: 35px;
+  line-height: 28px;
+}
+.banner .banner-titel a {
+  text-decoration: none;
+  display: inline-block;
+}
+.banner .banner-titel a .button {
+  color: #DFA974;
+  font-size: 13px;
+  font-family: "Cabin";
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  padding: 15px 30px;
+  border: 2px solid #DFA974;
+  border-radius: 20px;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+.banner .banner-titel a .button:hover {
+  background-color: #222736;
+  color: #fff;
+  border-radius: 20px;
+}
+.banner .bookinh-hotel {
+  background-color: #fff;
+  width: 360px;
+  height: 600px;
+  padding: 40px;
+  border-radius: 5px;
+  margin: 100px auto;
+}
+.banner .bookinh-hotel h3 {
+  font-size: 30px;
+  font-family: "Lora";
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 36px;
+}
+.banner .bookinh-hotel form .chack {
+  position: relative;
+  margin-bottom: 15px;
+}
+.banner .bookinh-hotel form .chack label {
+  font-size: 14px;
+  font-family: "Cabin";
+  color: #707079;
+  display: block;
+  margin-bottom: 10px;
+}
+.banner .bookinh-hotel form .chack input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  font-size: 16px;
+  color: #19191a;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 15px;
+  outline: none;
+}
+.banner .bookinh-hotel form .chack i {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+  color: #DFA974;
+}
+.banner .bookinh-hotel button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #DFA974;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #DFA974;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+.section-1 {
+  border-bottom: 1px solid #a7a7a7;
+}
+.section-1 .about-us .u-s {
+  display: block;
+  font-size: 14px;
+  color: #DFA974;
+  font-family: "Cabin";
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-1 .about-us .hading {
+  font-size: 44px;
+  color: #19191a;
+  font-weight: 400;
+  font-family: "Lora";
+  margin-top: 10px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-1 .about-us .p-line-2 {
+  margin-bottom: 50px;
+}
+.section-1 .about-us a {
+  text-decoration: none;
+  display: inline-block;
+}
+.section-1 .about-us a .red-mode {
+  color: #DFA974;
+  font-size: 13px;
+  font-family: "Cabin";
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  padding: 15px 30px;
+  border: 2px solid #DFA974;
+  border-radius: 20px;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+.section-1 .about-us a .red-mode:hover {
+  background-color: #222736;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.about-img-1 img {
+  width: 100%;
+}
+
+.about-img-2 img {
+  width: 100%;
+}
+
+.section-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-2 .what-we-do .u-s {
+  display: block;
+  font-size: 14px;
+  color: #DFA974;
+  font-family: "Cabin";
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-2 .what-we-do .hading {
+  font-size: 44px;
+  color: #19191a;
+  font-weight: 400;
+  font-family: "Lora";
+  margin-top: 10px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-2 .service-list {
+  text-align: center;
+  padding: 30px 35px 18px;
+  transition: all 0.3s ease;
+}
+.section-2 .service-list i {
+  font-size: 50px;
+  color: #DFA974;
+  transition: all 0.3s ease;
+}
+.section-2 .service-list h4 {
+  font-size: 22px;
+  font-family: "Lora";
+  font-weight: 400;
+  line-height: 1.4;
+  color: #19191a;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+.section-2 .service-list .cart-p {
+  line-height: 24px;
+  color: #707079;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.section-2 .service-list:hover {
+  background-color: #DFA974;
+}
+.section-2 .service-list:hover i, .section-2 .service-list:hover h4, .section-2 .service-list:hover p {
+  color: #fff;
+}
+
+.section-3 .room-ditels-1 {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.section-3 .room-ditels-1 img {
+  width: 100%;
+  height: 100%;
+}
+.section-3 .room-ditels-1 .room-ditels-text {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  right: 25px;
+  bottom: -250px;
+  transition: all 0.5s;
+}
+.section-3 .room-ditels-1 .room-ditels-text h3 {
+  font-size: 30px;
+  font-family: "Lora";
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+}
+.section-3 .room-ditels-1 .room-ditels-text h2 {
+  font-size: 36px;
+  font-family: "Lora";
+  color: #DFA974;
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+.section-3 .room-ditels-1 .room-ditels-text h2 span {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Cabin";
+}
+.section-3 .room-ditels-1 .room-ditels-text table tbody tr td {
+  width: 120px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Cabin";
+  line-height: 36px;
+  padding: 1px;
+  font-weight: 400;
+}
+.section-3 .room-ditels-1 .room-ditels-text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-family: "Cabin";
+  font-weight: 700;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #fff;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.section-3 .room-ditels-1:hover .room-ditels-text {
+  bottom: 135px;
+}
+
+.section-4 {
+  padding-top: 100px;
+  padding-bottom: 100ox;
+  background-color: #F9F9F9;
+}
+.section-4 .testi-moon .u-s {
+  display: block;
+  font-size: 14px;
+  color: #DFA974;
+  font-family: "Cabin";
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-4 .testi-moon .hading {
+  font-size: 44px;
+  color: #19191a;
+  font-weight: 400;
+  font-family: "Lora";
+  margin-top: 10px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-4 .testi-moon .test-p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 20px 0 40px 0;
+}
+.section-4 .testi-moon .re-view {
+  text-align: center;
+}
+.section-4 .testi-moon .re-view i {
+  color: gold;
+  font-size: 16px;
+}
+.section-4 .testi-moon .re-view h5 {
+  font-size: 20px;
+  font-family: "Lora";
+  color: #19191a;
+  display: inline-block;
+  font-weight: 400px;
+}
+.section-5 .hotel-news .u-s {
+  display: block;
+  font-size: 14px;
+  color: #DFA974;
+  font-family: "Cabin";
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-5 .hotel-news .hading {
+  font-size: 44px;
+  color: #19191a;
+  font-weight: 400;
+  font-family: "Lora";
+  margin-top: 10px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-5 .bolg-images {
+  position: relative;
+  z-index: 1;
+}
+.section-5 .bolg-images img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.section-5 .blog-text {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+}
+.section-5 .blog-text span {
+  font-size: 12px;
+  padding: 3px 10px;
+  background-color: #DFA974;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  font-family: "Cabin";
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section-5 .blog-text h4 a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Lora";
+  color: #fff;
+  line-height: 1.2;
+  margin: 15px 0;
+  display: inline-block;
+  font-weight: 500;
+}
+.section-5 .blog-text .blog-time i {
+  color: #fff;
+  font-size: 12px;
+}
+.section-5 .blog-text .blog-time span {
+  background: transparent;
+  padding-left: 5px;
+}
+
+.footer {
+  background-color: #222736;
+}
+.footer .f-logo .footer-p {
+  text-align: start;
+  line-height: 26px;
+  color: #aaaab3;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.footer .social-icon ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.footer .social-icon ul li a i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #5A4D48;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+}
+.footer .social-icon ul li a i:hover {
+  background-color: #DFA974;
+}
+.footer .contact-us {
+  margin-left: 100px;
+}
+.footer .contact-us h6 {
+  font-size: 14px;
+  color: #DFA974;
+  font-family: "Cabin";
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.footer .contact-us ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer .contact-us ul li {
+  line-height: 26px;
+  color: #aaaab3;
+}
+.footer .new-latest {
+  margin-left: 100px;
+}
+.footer .new-latest h6 {
+  font-size: 14px;
+  color: #DFA974;
+  font-family: "Cabin";
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.footer .new-latest .footer-p {
+  text-align: start;
+  line-height: 26px;
+  color: #aaaab3;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.footer .new-latest .f-form input {
+  width: 100%;
+  height: 50px;
+  background-color: #393D4A;
+  border-radius: 2px;
+  color: #707079;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-family: "Cabin";
+  padding-left: 15px;
+}
+.footer .new-latest .f-form button {
+  width: 50px;
+  height: 50px;
+  background-color: #DFA974;
+  color: #fff;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

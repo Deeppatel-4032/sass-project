@@ -1,0 +1,140 @@
+@use './base.scss';
+
+.top-bar{
+    border-bottom: 1px solid #a7a7a7;
+    
+    .contect-ditel {
+        display: inline-block;
+    
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                    color: base.$balck-color;
+                    i{
+                        color: base.$primary-color;
+                    }
+                    span{
+                        font-size: base.$fs;
+                        margin: 0 64px 0 0;
+                        font-family: base.$serif-fonts;
+                    }
+                }
+                .sarch{
+                    i{
+                        padding-top: 20px;
+                        color: base.$balck-color;
+                    }
+                   
+                    
+                }
+            }
+        }
+    
+    }
+    .sociel-ditel{
+        padding: 13px 0;
+        display: inline-block;
+    
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                    color: base.$balck-color;
+                    i{
+                        color: base.$primary-color;
+                        padding: 0 10px;
+                          transition: all .3s ease;
+                        &:hover{
+                            color: base.$secondary-color;
+                        }
+                    }
+                }
+                .booking{
+                    padding: 20px 28px;
+                    background-color: base.$primary-color;
+                    margin-left: 30px;
+                    transition: all .3s ease;
+                    a{
+                        text-decoration: none;
+                    
+                    }
+                    span{
+                        font-size: 13px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        color: base.$white-color;
+                    }
+                    &:hover{
+                        background-color: base.$secondary-color;
+                    }
+                }
+                .flag{
+                    margin-left: 30px;
+                    img{
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+                span{
+                    font-size: base.$fs;
+                    color: base.$balck-color;
+                    i{
+                        padding: 0;
+                        color: base.$balck-color;
+                        position: relative;
+                    }
+                
+                }
+            }
+        }
+    }
+}
+.nav-bar{
+    .logo{
+        padding: 25px 0;
+        img{
+            margin-left: 30px;
+        }
+    }
+    .menu-bar{
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                padding: 27px 0;
+                margin: 0 42px 0 0;
+                a{
+                    text-decoration: none; 
+                    span{
+                        color: base.$balck-color;
+                        font-size: base.$fs;
+                        font-family: base.$serif-fonts;
+                        font-weight: 600;
+                        padding: 5px 0 0 0; 
+                    }
+                    &:hover{
+                        border-bottom: 3px solid base.$primary-color;  
+                    }
+                }
+            }
+            
+        }
+
+    }
+    .m-btn{
+        button{
+            background-color: base.$white-color;
+            border: none;
+            i{
+                color: base.$balck-color;
+                font-size: 25px;
+            }
+        }
+    }
+}
+

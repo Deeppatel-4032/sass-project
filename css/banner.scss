@@ -1,0 +1,97 @@
+@use './base.scss';
+
+
+.banner{
+    background-image: url("../image/bg-image/hero-3.jpg.webp");
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    height: 750px;
+    .banner-titel{
+        padding-top: 100px;
+        h1{
+            font-size: 80px;
+            font-weight: 400;
+            font-family: base.$sans-serife;
+            line-height: 90px;
+            color: base.$white-color;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 18px;
+            font-family: base.$sans-serife;
+            color: base.$white-color;
+            margin-bottom: 35px;
+            line-height: 28px;
+        }
+        a{
+            text-decoration: none;
+            display: inline-block;
+        
+            .button{
+                @include base.btn() 
+                
+            }
+        }
+    }
+    .bookinh-hotel{
+        background-color: base.$white-color;
+        width: 360px;
+        height: 600px;
+        padding: 40px;
+        border-radius: 5px;
+        margin: 100px auto;
+        h3{
+            font-size: 30px;
+            font-family: base.$sans-serife;
+            font-weight: 400;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        form{
+            .chack{
+                position: relative;
+                margin-bottom: 15px;
+               label{
+                font-size: 14px;
+                font-family: base.$serif-fonts;
+                color: base.$para-color;
+                display: block;
+                margin-bottom: 10px;
+               }
+               input{
+                width: 100%;
+                height: 50px;
+                border: 1px solid #ebebeb;
+                border-radius: 2px;
+                font-size: 16px;
+                color: base.$titel-color;
+                text-transform: uppercase;
+                font-weight: 500;
+                padding-left: 15px;
+                outline: none;
+                }
+                i{
+                position: absolute;
+                right: 20px;
+                bottom: 15px;
+                color: base.$primary-color;
+                }
+            }
+        }
+        button{
+            width: 100%;
+            height: 50px;
+            border: 1px solid base.$primary-color;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 500;
+            color: base.$primary-color;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 30px;
+            background-color: transparent;
+        }
+    }
+}

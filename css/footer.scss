@@ -1,0 +1,103 @@
+@use './base.scss';
+
+.footer{
+    background-color: base.$secondary-color;
+   .f-logo{
+        .footer-p{
+            @extend .pera;
+            text-align: start;
+            line-height: 26px;
+            color: #aaaab3;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+   }
+   .social-icon{
+        ul{
+            display: flex;
+            list-style: none;
+            padding-left: 0;
+            li{
+                a{
+                    i{
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        color: base.$white-color;
+                        font-size: 16px;
+                        border: 1px solid #5A4D48;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 8px;
+                        transition: all .3s ease;
+                        &:hover{
+                            background-color: base.$primary-color;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    .contact-us{
+       margin-left: 100px;
+       h6{
+           font-size: 14px;
+           color: base.$primary-color;
+           font-family: base.$serif-fonts;
+           font-weight: 700;
+           letter-spacing: 3px;
+           line-height: 1.2;
+           margin-bottom: 20px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            li{
+                line-height: 26px;
+                color: #aaaab3;
+            }
+        }
+    }
+    .new-latest{
+        margin-left: 100px;
+        h6{
+            font-size: 14px;
+            color: base.$primary-color;
+            font-family: base.$serif-fonts;
+            font-weight: 700;
+            letter-spacing: 3px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        .footer-p{
+            @extend .pera;
+            text-align: start;
+            line-height: 26px;
+            color: #aaaab3;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        .f-form{
+            input{
+                width: 100%;
+                height: 50px;
+                background-color: #393D4A;
+                border-radius: 2px;
+                color: base.$para-color;
+                outline: none;
+                border: none;
+                font-size: 20px;
+                font-family: base.$serif-fonts;  
+                padding-left: 15px; 
+            }
+            button{
+                width: 50px;
+                height: 50px;
+                background-color: base.$primary-color;
+                color: base.$white-color;
+                border: none;
+            }
+        }
+    }
+}

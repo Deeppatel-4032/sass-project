@@ -1,0 +1,43 @@
+@use './base.scss';
+
+.section-4{
+    padding-top: 100px;
+    padding-bottom: 100ox;
+    background-color: base.$bg-color;
+    .testi-moon{
+        .u-s{
+            @include base.top()
+        }
+        .hading{
+            @include base.big()
+        }
+        .test-p{
+            @extend .pera;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            margin: 20px 0 40px 0;
+        }
+        .re-view{
+            text-align: center;
+            i{
+                color: gold;
+                font-size: 16px;  
+            }
+            h5{
+                font-size: 20px;
+                font-family: base.$sans-serife;
+                color: base.$titel-color;
+                display: inline-block;
+                font-weight: 400px;
+            }
+        }
+
+    }
+    .next-btn-1{
+       @extend .skip;
+    }
+    .next-btn-2{
+        @extend .skip;
+    }
+}

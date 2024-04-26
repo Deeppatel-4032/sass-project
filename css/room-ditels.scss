@@ -1,0 +1,81 @@
+@use './base.scss';
+
+
+.section-3{
+    .room-ditels-1{
+        width: 100%;
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            
+        }
+        .room-ditels-text{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            left: 0px;
+            right: 25px;
+            bottom: -250px;
+            transition: all 0.5s;
+            h3{
+                font-size: 30px;
+                font-family: base.$sans-serife;
+                margin-bottom: 15px;
+                font-weight: 400;
+                color: base.$white-color;
+                line-height: 1.2;
+            }
+            
+            h2{
+                font-size: 36px;
+                font-family: base.$sans-serife;
+                color: base.$primary-color;
+                font-weight: 700;
+                margin-bottom: 50px;
+                line-height: 1.2;
+                span{
+                    font-size: 16px;
+                    color: base.$white-color;
+                    font-weight: 400;
+                    font-family: base.$serif-fonts;
+                }
+            }
+            table{
+               tbody{
+                tr{
+                   td{
+                    width: 120px;
+                    color: base.$white-color;
+                    font-size: 16px;
+                    font-family: base.$serif-fonts;
+                    line-height: 36px;
+                    padding: 1px;
+                    font-weight: 400;
+                   }
+                }
+               }
+            }
+            a{
+                text-decoration: none;
+                color: base.$white-color;
+                font-size: 13px;
+                font-family: base.$serif-fonts;
+                font-weight: 700;
+                display: inline-block;
+                padding-bottom: 5px;
+                border-bottom: 3px solid base.$white-color;
+                letter-spacing: 2px;
+                margin-top: 30px;
+
+            }
+          
+        }
+        &:hover .room-ditels-text{
+            bottom: 135px;
+           
+        }
+    }  
+}
